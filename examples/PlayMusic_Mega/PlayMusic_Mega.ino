@@ -28,6 +28,7 @@ void setup() {
   Serial.begin(9600);
   Serial.println("SGBotic Mini MP3 Module test sketch using Mega"); //Support Mega, Micro, Leonardo, etc
   mp3.begin(9600);
+  delay(1000);      //MP3 module initialization
 }
 
 void loop() {

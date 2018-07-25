@@ -31,6 +31,7 @@ void setup() {
   Serial.begin(9600);
   Serial.println("SGBotic MP3 Module test sketch using SoftwareSerial");
   mp3.begin(9600);
+  delay(1000);      //MP3 module initialization
 }
 
 void loop() {
